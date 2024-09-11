@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+int r;
+cout<<"Enter the radius : ";
+cin>>r;
+if(r<0)
+{cout<<"Radius cant be negative, please enter a positive value";
+cin>>r;}
+
+cout<<"Area of the circle is "<<r*r;
+
+return 0;
+}
